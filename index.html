@@ -1,87 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sunny Shen</title>
-    <link rel="icon" href="img/axolotl.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="container justify-content-center">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Sunny Shen</title>
+        <link rel="icon" href="img/axolotl.png" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div
+            class="flex items-center justify-center h-screen w-screen text-center"
+        >
+            <div>
+                <p class="text-6xl font-mono">Sunny Shen</p>
+                <p class="text-3xl font-mono">
+                    Second year computer science student at Carleton University
+                </p>
+                <br />
+                <div class="mb-3">
+                    <img
+                        src="img/axolotl.jpg"
+                        class="h-auto max-w-lg rounded-lg mx-auto"
+                        alt="Responsive image"
+                    />
+                </div>
+                <br />
 
-    </div>
-    <div class="container">
-      <nav class="navbar fixed-top navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/axolotl.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-            Sunny Shen
-          </a>
-        </div>
-      </nav>
-    </div>
-
-    <div class="container mb-3">
-      <img src="img/axolotl.jpg" class="img-fluid" alt="Responsive image">
-    </div>
-
-    <div class="container">
-      <p class="fs-1">Hi. I'm Sunny</p>
-      <p class="fs-4">Welcome to my website. It's pretty empty for now, but I'm working on adding more content in the future.</p>
-    </div>
-   
-    <div class="container mb-3">
-      <p class="fs-3">Links</p>
-          <a class="btn btn-outline-danger mr-3" href="mailto:sunny.s.2106@gmail.com" target="_blank" role="button">Email</a>
-          <a class="btn btn-outline-success mr-3"  role="button">416-884-3578</a>
-          <a class="btn btn-outline-primary mr-3" href="https://github.com/sunnys2106" target="_blank" role="button">Github</a>
-          <a class="btn btn-outline-secondary mr-3" href="https://www.linkedin.com/in/sunny-shen-151077285/" target="_blank" role="button">LinkedIn</a>
-    </div>
-
-    <div class="container">
-      <p class="fs-3">Projects</p>
-      <div class="row">
-        <div class="col gx-4">
-          <div class="card">
-            <img src="img\chess.png" class="card-img-top" alt="chessboard">
-            <div class="card-body">
-              <h5 class="card-title">Chess</h5>
-              <p class="card-text">Chess made with Java</p>
-              <a href="https://github.com/sunnys2106/Chess" target="_blank" class="btn btn-primary">Code</a>
+                <div class="mb-3">
+                    <a href="mailto:sunny.s.2106@gmail.com">
+                        <img
+                            src="./img/email.png"
+                            alt="Email"
+                            class="w-12 h-12 inline-block mx-2 transform transition-transform duration-200 hover:scale-110"
+                        />
+                    </a>
+                    <a href="https://github.com/sunnys2106">
+                        <img
+                            src="./img/github.png"
+                            alt="GitHub"
+                            class="w-12 h-12 inline-block mx-2 transform transition-transform duration-200 hover:scale-110"
+                        />
+                    </a>
+                    <a href="https://www.linkedin.com/in/sunny-shen2106">
+                        <img
+                            src="./img/linkedin.png"
+                            alt="LinkedIn"
+                            class="w-12 h-12 inline-block mx-2 transform transition-transform duration-200 hover:scale-110"
+                        />
+                    </a>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col gx-4">
-          <div class="card">
-            <img src="img\snakebox.png" class="card-img-top" alt="snake game">
-            <div class="card-body">
-              <h5 class="card-title">Snake</h5>
-              <p class="card-text">Snake made with pygame</p>
-              <a href="https://github.com/sunnys2106/Snake" target="_blank" class="btn btn-primary">Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="col gx-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img\site.jpg" class="card-img-top" alt="chessboard">
-            <div class="card-body">
-              <h5 class="card-title">This website</h5>
-              <p class="card-text">Check out the source code</p>
-              <a href="https://github.com/sunnys2106/sunnys2106.github.io" target="_blank" class="btn btn-primary">Code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <nav class="navbar">
-      </nav>
-    </div>
-
-  </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-  </body>
+    </body>
 </html>
-
